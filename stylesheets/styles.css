@@ -1,7 +1,6 @@
 /* empty */
 body {
     text-align: center;
-    margin-top: 12%;
 }
 h1 {
 	font-family: Inconsolata;
@@ -28,6 +27,13 @@ h3 {
 
 }
 h4{
+    font-family: Inconsolata;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+p{
     font-family: Inconsolata;
     font-size: 16px;
     font-style: normal;
