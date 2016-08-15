@@ -40,3 +40,15 @@ p{ /* same as h3 */
 	font-variant: normal;
 	font-weight: 500;
 }
+.button-NAME {
+    background-color: #5AB9F8;
+    border: 0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.button-NAME:hover {
+    background: #42BDE5;
+    color: #FFFFFF;
+    text-decoration: none;
+}
