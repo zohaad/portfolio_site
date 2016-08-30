@@ -82,21 +82,51 @@ h3 {
 
 }
 .resume-button {
-  background-color: #1D1F21;
+
+  background-color: #5AB9F8; /* soft blue */
+  -webkit-transition: background-color: #1D1F21 3s ease-in-out;
   border: 0;
-  color: #F3F5F6;
+  color: #F3F5F6; /* not-white */
   padding: 10px 20px;
   text-decoration: none;
 }
-.resume-button:hover {
-  background-color: #5AB9F8;
-  color: #F3F5F6;
-  text-decoration: none;
+
+.box {
+  -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.5);
+box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.5);
 }
 #pfade p{
   -webkit-animation-delay:10s;
 }
 
+
+img {opacity:0;
+  -webkit-filter: blur(5px);
+     -moz-filter: blur(5px);
+       -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+          filter: blur(5px);
+    -moz-transition: opacity 2s ease-in-out;
+ -webkit-transition: opacity 2s ease-in-out;
+      -o-transition: opacity 2s ease-in-out;
+         transition: opacity 2s ease-in-out;
+}
+img.myimage {
+  height: 60px;
+  width: 60px;
+  -webkit-animation: image_blur 2s ease-in-out;
+  -moz-animation:image_blur 2s ease-in-out;
+  -o-animation: image_blur 2s ease-in-out;
+  -ms-animation: image_blur 2s ease-in-out;
+  animation: image_blur 2s ease-in-out;
+
+  animation-fill-mode: forwards;
+}
+@keyframes image_blur {
+  0% { filter: blur(5px);}
+  100% {filter: blur(0px);}
+}
 #fade {
   -webkit-animation: fadein 2s ease-in-out;
      -moz-animation: fadein 2s ease-in-out;
