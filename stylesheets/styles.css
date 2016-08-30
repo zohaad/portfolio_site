@@ -98,17 +98,17 @@ h3 {
 }
 
 #fade {
-  -webkit-animation: fadein 2s;
-     -moz-animation: fadein 2s;
-      -ms-animation: fadein 2s;
-       -o-animation: fadein 2s;
-          animation: fadein 2s;
+  -webkit-animation: fadein 2s ease-in-out;
+     -moz-animation: fadein 2s ease-in-out;
+      -ms-animation: fadein 2s ease-in-out;
+       -o-animation: fadein 2s ease-in-out;
+          animation: fadein 2s ease-in-out;
 
-  -webkit-animation: shadowtrans 2s ease-in;
-     -moz-animation: shadowtrans 2s ease-in;
-      -ms-animation: shadowtrans 2s ease-in;
-       -o-animation: shadowtrans 2s ease-in;
-          animation: shadowtrans 2s ease-in;
+  -webkit-animation: shadowtrans 2s ease-in-out;
+     -moz-animation: shadowtrans 2s ease-in-out;
+      -ms-animation: shadowtrans 2s ease-in-out;
+       -o-animation: shadowtrans 2s ease-in-out;
+          animation: shadowtrans 2s ease-in-out;
 
   animation-fill-mode: forwards;
 }
