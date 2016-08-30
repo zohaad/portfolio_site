@@ -17,6 +17,24 @@
   src: url('../fonts/montserrat.woff2') format('woff2');
 }
 @font-face {
+  font-family: 'Avenir Next Reg';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Avenir Next Cn';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/AvenirNextLTPro-Cn.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Avenir Next UltLtCnIt';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/AvenirNextLTPro-UltLtCnIt.otf') format('opentype');
+}
+@font-face {
   font-family: "Finger Paint";
   font-style: normal;
   font-weight: 400;
@@ -64,6 +82,17 @@ p {
   top: 40%;
   width: 100%;
 }
+p.hey {
+  font-family: "Avenir Next Reg";
+  top: 60%;
+  font-size: 25px;
+
+
+}
+a.hey {
+  color: #F3F5F6;
+  text-decoration: none;
+}
 h3 {
   font-family: Inconsolata;
   font-size: 16px;
@@ -78,18 +107,21 @@ h3 {
   position: absolute;
   top: 50%;
   width: 100%;
-
-
+}
+a.github {
+position: sticky;
+top: 30%;
 }
 .resume-button {
-
-  background-color: #5AB9F8; /* soft blue */
-  -webkit-transition: background-color: #1D1F21 3s ease-in-out;
   border: 0;
   color: #F3F5F6; /* not-white */
+  transition: background-color 2s ease-in-out;
+  background: #5AB9F8;
   padding: 10px 20px;
   text-decoration: none;
 }
+.loading a { background-color: transparent; } /* blue */
+
 
 .box {
   -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.5);
@@ -127,6 +159,7 @@ img.myimage {
   0% { filter: blur(5px);}
   100% {filter: blur(0px);}
 }
+
 #fade {
   -webkit-animation: fadein 2s ease-in-out;
      -moz-animation: fadein 2s ease-in-out;
@@ -140,7 +173,7 @@ img.myimage {
        -o-animation: shadowtrans 2s ease-in-out;
           animation: shadowtrans 2s ease-in-out;
 
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards
 }
 
 @keyframes fadein {
