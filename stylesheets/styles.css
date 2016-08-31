@@ -115,12 +115,22 @@ top: 30%;
 .resume-button {
   border: 0;
   color: #F3F5F6; /* not-white */
-  transition: background-color 2s ease-in-out;
+  -webkit-transition: background-color 2s ease-in-out 2s;
+  -moz-transition: background-color 2s ease-in-out 2s;
+  -o-transition: background-color 2s ease-in-out 2s;
+  -ms-transition: background-color 2s ease-in-out 2s;
+  transition: background-color 2s ease-in-out 2s;
   background: #5AB9F8;
   padding: 10px 20px;
   text-decoration: none;
 }
-.loading a { background-color: transparent; } /* blue */
+.loading a {
+
+
+  background-color: transparent;
+   /* blue */
+
+ }
 
 
 .box {
