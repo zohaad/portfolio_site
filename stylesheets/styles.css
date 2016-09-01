@@ -56,7 +56,9 @@
 html {
   background-color: #1D1F21; /* not-black */
 }
-
+div {
+  display: block;
+}
 h1 {
   font-family: "Futura Light";
   font-size: 40px;
