@@ -206,3 +206,11 @@ img.myimage {
     user-select: none;
     cursor: default;
 }
+
+#container {
+  user-select:normal;
+  -webkit-user-select:normal;
+  -khtml-user-select:normal;
+  -moz-user-select:normal;
+  -ms-user-select:normal;
+}
