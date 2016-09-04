@@ -213,4 +213,6 @@ img.myimage {
   -khtml-user-select:normal;
   -moz-user-select:normal;
   -ms-user-select:normal;
+  -webkit-touch-callout:normal;
+
 }
